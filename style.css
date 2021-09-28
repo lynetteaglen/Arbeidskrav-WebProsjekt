@@ -40,7 +40,7 @@ header .search input {
   border-style: none;
 }
 
-header .button_div {
+.button_div {
   margin-top: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,12 +50,48 @@ header .button_div {
           justify-content: center;
 }
 
-header .button_div button {
+.button_div button {
   border-radius: 30px;
   height: 30px;
   width: 40%;
   border-style: none;
   background-color: white;
+}
+
+.button_div #button-green {
+  background-color: #153B37;
+  color: white;
+  width: 50%;
+  height: 40px;
+}
+
+.banner {
+  margin-top: 0;
+  height: 300px;
+  background-color: #F7F4ED;
+}
+
+.banner p {
+  margin-top: 0;
+  padding-top: 30%;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1.5em;
+}
+
+.container .container_menu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container .container_menu h2 {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 1px solid grey;
 }
 
 nav {

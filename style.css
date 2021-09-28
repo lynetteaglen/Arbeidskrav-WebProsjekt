@@ -38,6 +38,9 @@ header .search input {
   height: 30px;
   width: 70%;
   border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  color: #8d8d8d;
 }
 
 .button_div {

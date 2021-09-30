@@ -118,8 +118,7 @@ header{
         .menu_button{
             display: block; 
             height: 30px; 
-            width: 5
-            0px; 
+            width: 5px 0px; 
             background-color: #153B37;
             color: white; 
             border-style: none;
@@ -183,7 +182,8 @@ header{
 
 }
 
-@media screen and (min-width: 1266px) {
+@media screen and (min-width: 1200px) {
+
     header{
         padding-top: 6%; 
     

@@ -77,24 +77,53 @@ header{
     }
 }
 
-.container{
-    margin: 0 auto; 
-    max-width: 1200px;
-    padding: 1.5em; 
 
-    .container_menu{
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+
+    .menu {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
 
         h2{
             margin: 0;
-            padding-bottom: 1em; 
-            border-bottom: 1px solid grey;  
+            padding-bottom: 1em;
+            border-bottom: 2px solid #ccc;
         }
+
+        .menu_items{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5em;
+            padding: 1.5em 0;
+        }
+
+        .menu-item {
+            display: flex;
+          }
+
+        .menu_image{
+            width: 70px;
+            height: 70px;
+            flex-shrink: 0;
+        }
+      }
+  }
+
+  
+  @media screen and (min-width: 992px) {
+    .menu {
+      font-size: 16px;
     }
-
-    .menu-items{
-
+  
+    .menu-items {
+      grid-template-columns: repeat(2, 1fr);
     }
-
-}
+  
+    .img {
+      width: 125px;
+      height: 125px;
+    }
+  }

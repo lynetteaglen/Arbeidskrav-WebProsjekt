@@ -176,27 +176,9 @@ header .search input {
     margin: 0 10px;
     padding-top: 10%;
   }
-  .menu_button {
-    display: none;
-    height: 30px;
-    width: 5px 0px;
-    background-color: #153B37;
-    color: white;
-    border-style: none;
-    border-radius: 30px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
-  .menu_button {
-    display: none;
-    height: 30px;
-    width: 5px 0px;
-    background-color: #153B37;
-    color: white;
-    border-style: none;
-    border-radius: 30px;
-  }
   header {
     padding-top: 6%;
   }

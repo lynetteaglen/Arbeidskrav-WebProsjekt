@@ -18,6 +18,11 @@ nav{
                 text-decoration: none;
                 font-family: Arial, Helvetica, sans-serif;
             }
+
+            a:hover{
+                border-bottom: 1px solid white;
+                cursor: pointer;
+            }
         }
     }
 }

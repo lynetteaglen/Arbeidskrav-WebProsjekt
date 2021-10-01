@@ -54,11 +54,20 @@ header{
         background-color: white;
     }
 
+    button:hover{
+        background-color:rgb(98, 133, 98); 
+        color: white; 
+    }
+
     .button-green{
         background-color: #153B37;
         color: white; 
         width: 50%; 
         height: 40px; 
+    }
+
+    .button-green:hover{
+        background-color: rgb(98, 133, 98);
     }
 }
 
@@ -118,11 +127,16 @@ header{
         .menu_button{
             display: block; 
             height: 30px; 
-            width: 5px 0px; 
+            width: 100px; 
             background-color: #153B37;
             color: white; 
             border-style: none;
             border-radius: 30px;
+        }
+
+        .menu_button:hover{
+            background-color: rgb(98, 133, 98);
+            color: white; 
         }
       }
   }
@@ -189,7 +203,8 @@ header{
     
         .image_wrapper{
             img{
-                width: 3%;
+                width: 2%;
+                margin-bottom: 4%; 
             }
         }
     
@@ -206,7 +221,7 @@ header{
         margin-top: 3%; 
     
         button{
-            width: 15%; 
+            width: 10%; 
         }
     
         .button-green{
@@ -220,6 +235,10 @@ header{
             margin: 0 10px; 
             padding-top: 7%; 
         }
+    }
+
+    .menu_button{
+        width: 500px; 
     }
 
 }

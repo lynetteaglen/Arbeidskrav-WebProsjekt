@@ -261,10 +261,11 @@ header{
 }
   
 
-@media screen and (max-width: 1596px) {
+@media screen and (min-width: 2000px) {
 
     header{
         padding-top: 6%; 
+        height: 700px;
     
         .image_wrapper{
             img{
@@ -272,38 +273,11 @@ header{
                 margin-bottom: 4%; 
             }
         }
-    
-        .search{
-            margin-top: 5%;
-    
-            input{
-                width: 20%; 
-            }
-        }
-    }
-
-    .button_div{
-        margin-top: 3%; 
-    
-        button{
-            width: 10%; 
-        }
-    
-        .button-green{
-            width: 15%; 
-        }
     }
 
     .banner{
-
-        p{
-            margin: 0 10px; 
-            padding-top: 7%; 
-        }
+        height: 400px; 
     }
 
-    .menu_button{
-        width: 500px; 
-    }
 
 }

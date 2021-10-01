@@ -7,8 +7,7 @@ header{
     background-color: #153B37; 
     width: 100%; 
     height: 500px; 
-    padding-top: 65%; 
-
+    padding-top: 35%;
     .image_wrapper{
         img{
             display: block; 
@@ -94,6 +93,10 @@ header{
         text-align: center;
     }
 
+    h3{
+        margin: 10px 0px; 
+    }
+
     .menu {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
@@ -107,8 +110,8 @@ header{
         .menu_items{
             display: grid;
             grid-template-columns: 1fr;
-            gap: 1.5em;
-            padding: 1.5em 0;
+            gap: 2em;
+            padding: 2em 0;
         }
 
         .menu-item {
@@ -142,7 +145,7 @@ header{
   }
 
   
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 700px) {
     .menu {
       font-size: 16px;
     }
@@ -242,4 +245,60 @@ header{
     }
 
 }
+
+@media screen and (max-width: 1220px){
+
+	.container{
+	max-width: 95%;
+
+	}
+
+}
   
+
+@media screen and (max-width: 1596px) {
+
+    header{
+        padding-top: 6%; 
+    
+        .image_wrapper{
+            img{
+                width: 2%;
+                margin-bottom: 4%; 
+            }
+        }
+    
+        .search{
+            margin-top: 5%;
+    
+            input{
+                width: 20%; 
+            }
+        }
+    }
+
+    .button_div{
+        margin-top: 3%; 
+    
+        button{
+            width: 10%; 
+        }
+    
+        .button-green{
+            width: 15%; 
+        }
+    }
+
+    .banner{
+
+        p{
+            margin: 0 10px; 
+            padding-top: 7%; 
+        }
+    }
+
+    .menu_button{
+        width: 500px; 
+    }
+
+}

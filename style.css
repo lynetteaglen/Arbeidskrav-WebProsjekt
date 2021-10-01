@@ -225,6 +225,12 @@ header .search input {
   }
 }
 
+@media screen and (max-width: 1220px) {
+  .container {
+    max-width: 95%;
+  }
+}
+
 nav {
   background-color: #153B37;
   width: 100%;
@@ -265,7 +271,7 @@ nav ul li a:hover {
           box-sizing: border-box;
 }
 
-body {
+.body_shop {
   background-color: #153B37;
 }
 
